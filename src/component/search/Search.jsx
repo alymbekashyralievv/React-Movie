@@ -6,7 +6,10 @@ const Search = () => {
     <div>
       <div className="app-container">
         <h3 className="text-[24px] mb-[15px]">Поиск по сайту</h3>
-        <p>На нашем сайте вы найдете подходящее вам фильмы и сериалы</p>
+        <p>
+          На нашем сайте вы найдете подходящее вам фильмы и сериалов на любой
+          вкус
+        </p>
         <div className="flex items-center rounded-[10px] pr-[20px] bg-[#1a1a1a]">
           <Input hintText="Поиск..." />
           <CiSearch color="red" className="text-[33px]" />
